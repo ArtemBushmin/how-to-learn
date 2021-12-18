@@ -13,9 +13,9 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   display: flex;
-  /* выше установили ограничения для секции */
   position: relative;
   align-items: center;
 }
@@ -29,17 +29,16 @@
   z-index: 1;
 }
 
-.header__titel {
+.header__title {
   width: 730px;
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
   z-index: 2;
   margin: auto 0 auto 64px;
-  padding: 0;
 }
 
-.header__subtitel {
+.header__subtitle {
   width: 388px;
   font-size: 18px;
   line-height: 25px;
@@ -170,6 +169,53 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
+}
+
+.feynman {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feynman__title {
+  width: 648px;
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 100px auto 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  margin: 70px auto 0;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
+
+.feynman__img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
